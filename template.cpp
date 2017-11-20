@@ -1,5 +1,5 @@
 // OB3LISK's C++ template for Google Code Jam.
-
+// g++ -std=c++11 template.cpp -o main 
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -9,6 +9,7 @@
 #include <cmath>
 #include <set>
 #include <map>
+#include <unordered_map>
 #include <cstdio>
 #include <queue>
 
@@ -21,7 +22,7 @@ typedef long double ld;
 ///////////////////////////////////////////////////
 #define filein "A-small-attempt0.in"
 #define fileout "A.out"
-void solve()
+void solve(int t)
     {
 
     }
@@ -39,7 +40,7 @@ int main()
     for(int t = 1; t <= tt; t++)
         {
         cout << "Case #" << t << ": ";
-        solve();
+        solve(t);
         if(t != tt) { cout << "\n"; }
         }
     return 0;

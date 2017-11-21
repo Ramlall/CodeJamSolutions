@@ -20,7 +20,7 @@ typedef long double ld;
 // Do all the work for the code jam problem here.
 // Write the answer to a test case.
 ///////////////////////////////////////////////////
-#define filein "A-small-attempt0.in"
+#define filein "test.in"
 #define fileout "A.out"
 void solve(int t)
     {
